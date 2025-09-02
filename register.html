@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar</title>
+    <link rel="stylesheet" href="css/register.css">
+</head>
+<body>
+    <header class="header">
+    <div class="header-left">
+        <div class="logo-name">
+            <img src="img/contactinfo_logo.png" class="logo" alt="ContactInfo Logo">
+            <p class="name-enterprise">ContactInfo</p>
+        </div>
+    </div>
+    <div class="header-center">
+        <input type="search" class="search-bar" placeholder="Pesquisa">
+        <nav class="nav-list">
+            <a href="register.html">
+            <img class="plus-icon" src="img/plus_icon.png" alt="Plus Icon">
+            </a>
+            <a href="list.html">
+            <img class="clipboard-icon" src="img/clipboard_icon.png" alt="Clipboard Icon">
+            </a>
+            <a href="edit.html">
+            <img class="pencil-icon" src="img/pencil_icon.png" alt="Pencil Icon">
+            </a>
+            <a href="delete.html">
+            <img class="trash-icon" src="img/delete_icon.png" alt="Trash Icon">
+            </a>
+        </nav>
+    </div>
+    <div class="header-right"></div>
+</header>
+<main class="main-register">
+    <h1 class="main-title">ContactInfo - Novo Contato:</h1>
+</main>
+<fieldset class="form-container">
+<form action="#">
+        <p><label for="inome">Nome:</label> 
+            <input type= "text" name="nome" id="inome" required placeholder="Insira o nome"></p>
+        <p><label for="itelefone">Telefone: </label> 
+            <input type="tel" name="telefone" id="itelefone" required placeholder="Insira o telefone"></p>
+        <p><label for="iemail">Email: </label> 
+            <input type="email" name="email" id="iemail" required placeholder="Insira o email"></p>
+        <p><label for="ianiversario">Aniversário: </label> 
+            <input type="date" name="aniversario" id="ianiversario" required></p>
+        <p><input class="button-register" type="submit" value="Cadastrar"></p>
+    </form>
+</fieldset>
+ <footer class="footer">
+    <nav class="footer-nav-list">
+        <div class="footer-text">
+            <p>Suporte> </p>
+            <p>Sobre nós> </p>
+            <p>© 2025 ContactInfo - Todos os direitos reservados</p>
+        </div>
+    </nav>
+</footer>
+</body>
+</html>
